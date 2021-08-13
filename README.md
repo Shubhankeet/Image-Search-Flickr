@@ -1,4 +1,4 @@
-A simple image searching App using Flickr API.
+# A simple image searching App using Flickr API.
 
 # Getting Started with Create React App
 
