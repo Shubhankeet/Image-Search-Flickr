@@ -1,0 +1,147 @@
+.inputControls {
+  background-color: #333;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.labelText {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 3%;
+}
+
+.containerClass {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 500px;
+}
+
+.inputLabel {
+  width: 100%;
+  height: 30px;
+  padding-left: 5px;
+}
+
+.inputLabel:focus {
+  outline: none;
+}
+
+.icon {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.invalidInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15%;
+  font-size: -webkit-xxx-large;
+}
+
+.suggestionBox {
+  position: relative;
+  height: auto;
+  background-color: white;
+  width: 286px;
+  margin-left: 36%;
+  margin-right: 50%;
+  top: -5px;
+  word-break: break-word;
+  border-bottom: thin;
+  box-shadow: 0 3px 5px -3px #000;
+}
+
+.eachSuggestion {
+  padding-left: 5px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.imageContainer {
+  margin-top: 150px;
+}
+
+img:hover {
+  -webkit-transform:scale(1.5); /* or some other value */
+  transform:scale(1.5);
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .labelText {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 56px;
+}
+
+.inputLabel {
+  width: 50%;
+  margin-left: 125px;
+}
+
+.invalidInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 40%;
+  font-size: x-large;
+  margin-left: 59px;
+  }
+
+.img {
+  vertical-align: middle;
+  margin-right: 60px;
+}
+
+.imageContainer {
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.suggestionBox {
+  position: relative;
+  height: auto;
+  background-color: white;
+  width: 183px;
+  margin-left: 39%;
+  margin-right: 50%;
+  top: -5px;
+  word-break: break-word;
+  border-bottom: thin;
+  box-shadow: 0 3px 5px -3px #000;
+}
+}
